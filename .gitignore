@@ -1,0 +1,6 @@
+# Default ignored files
+/NightVisionFlashBegone.iws
+
+# Project exclude paths
+/.gradle/
+/out/

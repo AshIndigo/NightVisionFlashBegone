@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "nightvisionflashbegone",
+  "version": "${version}",
+
+  "name": "Night Vision Flash be gone!",
+  "description": "Get's rid of that annoying flash when a night vision status effect is about to end",
+  "authors": [
+    "AshIndigo"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/nightvisiobegone/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "nightvisionflashbegone.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}

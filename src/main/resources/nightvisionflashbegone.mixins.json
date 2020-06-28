@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.ashindigo.nvflashbegone.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "NVFlashBeGone"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
