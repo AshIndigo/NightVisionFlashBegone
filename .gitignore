@@ -1,6 +1,30 @@
-# Default ignored files
-/NightVisionFlashBegone.iws
+# gradle
 
-# Project exclude paths
-/.gradle/
-/out/
+.gradle/
+build/
+out/
+classes/
+
+# eclipse
+
+*.launch
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# fabric
+
+run/
+/runSecondary/

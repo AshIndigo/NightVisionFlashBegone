@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Night Vision Flash be gone!",
-  "description": "Get's rid of that annoying flash when a night vision status effect is about to end",
+  "description": "Gets rid of that annoying flash when a night vision status effect is about to end",
   "authors": [
     "AshIndigo"
   ],
@@ -14,7 +14,7 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/nightvisiobegone/icon.png",
+  "icon": "assets/nightvisionflashbegone/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -27,7 +27,6 @@
 
   "depends": {
     "fabricloader": ">=0.7.4",
-    "fabric": "*",
     "minecraft": "1.16.x"
   }
 }
