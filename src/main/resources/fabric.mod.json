@@ -9,14 +9,15 @@
     "AshIndigo"
   ],
   "contact": {
-    "homepage": "",
-    "sources": ""
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/night-vision-flash-be-gone",
+    "sources": "https://github.com/AshIndigo/NightVisionFlashBegone",
+    "issues": "https://github.com/AshIndigo/NightVisionFlashBegone/issues"
   },
 
   "license": "CC0-1.0",
   "icon": "assets/nightvisionflashbegone/icon.png",
 
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "main": [
     ]
@@ -27,6 +28,6 @@
 
   "depends": {
     "fabricloader": ">=0.7.4",
-    "minecraft": "1.16.x"
+    "minecraft": ">=1.15"
   }
 }
