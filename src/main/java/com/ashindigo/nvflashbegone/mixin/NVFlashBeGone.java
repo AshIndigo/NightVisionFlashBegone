@@ -8,6 +8,10 @@ import org.spongepowered.asm.mixin.Overwrite;
 
 @Mixin(GameRenderer.class)
 public class NVFlashBeGone {
+	/**
+	 * @author Ash Indigo and Fourmisain
+	 * @reason To add fade out to the NV effect
+	 */
 	@Overwrite
 	public static float getNightVisionStrength(LivingEntity entity, float tickDelta) {
 		int dur = entity.getStatusEffect(StatusEffects.NIGHT_VISION).getDuration();
